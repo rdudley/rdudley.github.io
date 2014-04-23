@@ -110,7 +110,7 @@ $(document).ready(function() {
 
 				siteImages = data;
 				
-				$("#signature-image img").attr("src", "images/" + siteImages.image[signatureImage].source);
+				$("#signature-image img").attr("src", cdnURL + siteImages.image[signatureImage].source);
 				$("#image-description").text(siteImages.image[signatureImage].description);
 				//$("#image-description").css(siteImages.image[signatureImage].color);
 
