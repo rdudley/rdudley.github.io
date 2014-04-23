@@ -1,0 +1,355 @@
+body {
+	background-color: #dfdddb;
+}
+
+#wrapper {
+	border: 1px solid #c9c8c7;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.0em;
+	font-weight: 300;
+	color: #333;
+	line-height: 24px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	height: 60px;
+	clear: both;
+}
+
+h1 {
+	font-family: 'Raleway', serif;
+	font-size: 32px;
+	text-align: left;
+	line-height: normal;
+	font-weight: 400;
+	width: 300px;
+	float: left;
+	color: #4E6176;
+	letter-spacing: .04em;
+}
+
+#main-nav {
+	padding-top: 10px;
+	float: right;
+}
+
+#signature-image {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#image-description {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #CCC;
+	height: 30px;
+	padding-left: 5px;
+	position: absolute;
+	bottom: 0;
+}
+
+#about, #work, #photos, #contact {
+	margin-top: 75px;	
+}
+
+#about-header {
+	font-family: 'Roboto', serif;
+	font-size: 2.4em;
+	font-weight: 300;
+	color: #d95b43;
+	line-height:normal;
+}
+
+#work-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.4em;
+	font-weight: 300;
+	color: #c02942;
+	line-height:normal;
+}
+
+#photos-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.4em;
+	font-weight: 300;
+	color: #542437;
+	line-height:normal;
+}
+
+#contact-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.4em;
+	font-weight: 300;
+	color: #53777a;
+	line-height:normal;
+}
+
+#footer {
+	color: #CCCCCC;
+	font-size: 12px;
+	padding-bottom: 10px;	
+}
+
+#copyright {
+	width: 250px;
+	float: left;
+}
+
+#hosting {
+	width: 250px;
+	float: right;
+	text-align: right;
+}
+
+#hosting a:link, #hosting a:visited {
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+
+#hosting a:hover, #hosting a:active {
+	color: #333333;
+	text-decoration: underline;
+}
+
+.clear {
+	clear:both;	
+}
+
+.divider {
+	margin-top: 5px;
+	padding-bottom: 10px;
+	border-top: 1px solid #D3D3D3;
+}
+
+#about img {
+	float: left;
+	margin-right: 15px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	
+	border: 0.625em solid rgba(255, 255, 255, .5);
+	border-color: #fff;
+
+	-webkit-box-shadow: 0 0 0.6em rgba(0, 0, 0, .25 ); 
+	-moz-box-shadow: 0 0 0.6em rgba(0, 0, 0, .25 ); 
+	box-shadow: 0 0 0.6em rgba(0, 0, 0, .25 );	
+}
+
+#work-images {
+	width: 60%;
+	float: left;
+	padding-right: 20px;
+	margin-bottom: 25px;	
+}
+
+#work-description {
+	width:38%;
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 25px;
+}
+
+.work-title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.9em;
+	font-weight: 300;
+	color: #c02942;
+	line-height:normal;	
+}
+
+.work-role {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	color: #c02942;
+	line-height:normal;	
+}
+
+.work-description {
+	color: #A2A2A2;
+	line-height: normal;
+	text-align: center;
+	font-size: .9em;
+}
+
+#work-selections li, #photos-wrapper li {
+	display: inline-block;
+	float: left;
+	margin: 0.5em;
+	position: relative;
+}
+
+#work-selections img, #photos-wrapper img {
+	height: 100%;
+	overflow: hidden;
+	border-color: #eee;
+	border: 0.625em solid rgba(255, 255, 255, .5);
+
+	-webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0 0 0.25em rgba(0, 0, 0, .05); 
+	box-shadow: 0 0 0.25em rgba(0, 0, 0, .05); 
+
+	-webkit-transition: -webkit-box-shadow .3s ease, border-color .3s ease;
+	-moz-transition: -moz-box-shadow .3s ease, border-color .3s ease;
+	-ms-transition: -ms-box-shadow .3s ease, border-color .3s ease;
+	-o-transition: -o-box-shadow .3s ease, border-color .3s ease;
+	transition: box-shadow .3s ease, border-color .3s ease;
+}
+
+#work-selections img:hover, #photos-wrapper img:hover {
+	border-color: #fff;
+
+	-webkit-box-shadow: 0 0 0.6em rgba(0, 0, 0, .25 ); 
+	-moz-box-shadow: 0 0 0.6em rgba(0, 0, 0, .25 ); 
+	box-shadow: 0 0 0.6em rgba(0, 0, 0, .25 ); 
+}
+
+#imagelightbox {
+	cursor: pointer;
+	position: fixed;
+	z-index: 10000;
+
+	-ms-touch-action: none;
+	touch-action: none;
+
+	-webkit-box-shadow: 0 0 3.125em rgba(0, 0, 0, .75);
+	-moz-box-shadow: 0 0 3.125em rgba(0, 0, 0, .75); 
+	box-shadow: 0 0 3.125em rgba(0, 0, 0, .75); 
+}
+		
+#imagelightbox-overlay {
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, .8);
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#caption {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, .8);
+	position: fixed;
+	z-index: 10001;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0.525em;
+}
+
+#contact-form-wrapper {
+	width: 48%;
+	float: left;
+}
+
+#form-wrapper, #social-wrapper {
+	width: 48%;
+	float: left;
+	padding-bottom: 15px;
+}
+
+#social-wrapper {
+	padding-left: 20px;	
+}
+
+label {
+	display: block;
+	padding-top: 15px;
+}
+.forminput {
+	padding: 10px;
+	border: 1px solid #D4D4D4;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #53777a;
+	width: 90%;
+}
+
+.submitbutton {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #53777a;
+	color: #FFFFFF;
+	margin-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: none;
+}
+
+.error {
+	color: #A94442;
+}
+
+input.error, textarea.error {
+	border: 1px solid #A94442;
+}
+
+#contact-message-wrapper {
+	margin-bottom: 15px;
+}
+
+#contact-message {
+	border-radius: 4px;
+	background-color: #53777a;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	width: 90%;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#social-linkedin {
+	width: 46px;
+	height: 46px;
+	background-image: url(../images/linkedin.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	float: left;
+}
+
+#social-facebook {
+	width: 46px;
+	height: 46px;
+	background-image: url(../images/facebook.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	float: left;
+}
+
+#social-instagram {
+	width: 46px;
+	height: 46px;
+	background-image: url(../images/instagram.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	float: left;
+}
+
+#social-pinterest {
+	width: 46px;
+	height: 46px;
+	background-image: url(../images/pinterest.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	float: left;
+}

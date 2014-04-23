@@ -1,0 +1,159 @@
+{
+    "image": [
+		{
+            "source": "image1.jpg",
+            "description": "Early spring fern. Athens, GA.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image2.jpg",
+            "description": "Rocky Mountain National Park, Colorado.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image3.jpg",
+            "description": "Odessa Lake, Rock Mountain National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image4.jpg",
+            "description": "Mountains, and U.S. 93, Idaho.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image5.jpg",
+            "description": "Big Southern Butte, Idaho.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image6.jpg",
+            "description": "Rural Idaho, just past the Tetons.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image7.jpg",
+            "description": "Lawn Lake Trail, Rocky Mountain National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image8.jpg",
+            "description": "Ypsilon Mountain seen from Fairchild Mountain summit.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image9.jpg",
+            "description": "Long's Peak seen from Fairchild Mountain summit.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image10.jpg",
+            "description": "Mummy Mountain and Lawn Lake, Colorado.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image11.jpg",
+            "description": "Looking south, Ecola State Park, Oregon.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image12.jpg",
+            "description": "The creek between Alice and Pettit Lake, Idaho.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image13.jpg",
+            "description": "Alpine Lake, Sawtooth Mountains, Idaho.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image14.jpg",
+            "description": "Sunset, Ecola State Park, Oregon.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image15.jpg",
+            "description": "Salmon River, Oregon.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image16.jpg",
+            "description": "Wahclella Falls, Oregon.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image17.jpg",
+            "description": "Weisendanger Falls, Oregon.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image18.jpg",
+            "description": "Early morning, Beach 2, Olympic National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image19.jpg",
+            "description": "Pony Bridge, Olympic National Park, Washington.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image20.jpg",
+            "description": "Qiunalt River, East Fork, Olympic National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image21.jpg",
+            "description": "Glacier National Park, Montana.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image22.jpg",
+            "description": "Mt. Oberlin, Cannon Mt., Glacier National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image23.jpg",
+            "description": "Cannon Mt., Glacier National Park, Montana.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image24.jpg",
+            "description": "Mt. Oberlin, Cannon Mt., Glacier National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image25.jpg",
+            "description": "Mt. Oberlin, Cannon Mt., Glacier National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image26.jpg",
+            "description": "Baring Falls, Glacier National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image27.jpg",
+            "description": "McDonald Creek, Glacier National Park.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image28.jpg",
+            "description": "Dried flowers in winter, Athens, GA.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image29.jpg",
+            "description": "Early spring ferns. Athens, GA.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image30.jpg",
+            "description": "Main Street, Ossabaw Island, Georgia.",
+            "color": "#CCC"
+        },
+        {
+            "source": "image31.jpg",
+            "description": "El Capitan and Alice Lake, Sawtooth Mountains, Idaho.",
+            "color": "#CCC"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+#nav {
+	display:inline-block;
+}
+#nav li {
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	margin-left: 24px;
+	padding: 4px;
+}
+
+#nav li:first-child {
+    margin-left: 0;
+}
+
+#nav li a {
+	display: block;	
+}
+
+#nav-about a:link, #nav-about a:visited, #nav-work a:link, #nav-work a:visited, #nav-photos a:link, #nav-photos a:visited, #nav-contact a:link, #nav-contact a:visited {
+	color: #494E63;
+	text-decoration: none;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-webkit-transition: color .2s ease-in-out;
+	transition: color.2s ease-in-out;
+}
+
+#nav-about a:hover, #nav-about a:active {
+	color: #d95b43;
+	text-decoration: none;
+}
+
+#nav-work a:hover, #nav-work a:active {
+	color: #c02942;
+	text-decoration: none;
+}
+
+#nav-photos a:hover, #nav-photos a:active {
+	color: #542437;
+	text-decoration: none;
+}
+
+#nav-contact a:hover, #nav-photos a:active {
+	color: #53777a;
+	text-decoration: none;
+}
+
+#nav-about-marker {
+	height: 6px;
+	background-color: #d95b43;
+}
+
+#nav-work-marker {
+	height: 6px;
+	background-color: #c02942;
+}
+
+#nav-photos-marker {
+	height: 6px;
+	background-color: #542437;
+}
+
+#nav-contact-marker {
+	height: 6px;
+	background-color: #53777a;
+}
+
+
+#jumpmenu-button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.30);
+	cursor: pointer;
+	margin-bottom: 30px;
+	padding: 9px;
+	text-align: center;
+	position: fixed;
+	top: 10px;
+}
+
+.jumpmenu-button-active {
+	background-color: rgba(0,0,0,0.75);
+}
+
+#jumpmenu {
+	background-color: rgba(0,0,0,0.75);
+	position: fixed;
+	width: 150px;
+	top: 55px;
+	z-index: 9999;
+}
+
+#jumpmenu li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+	color: #FFFFFFF;
+	display: block;
+	padding: 10px;
+	border-bottom: 1px dotted #999;
+	text-align: center;
+}
+
+#jumpmenu a {
+	display: block;	
+}
+
+#jumpmenu a:link, #jumpmenu a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
