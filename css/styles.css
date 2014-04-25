@@ -180,6 +180,17 @@ h1 {
 	font-size: .9em;
 }
 
+#work-container a:link, #work-container a:visited {
+	color: #c02942;
+	text-decoration: underline;
+}
+
+#work-container a:hover, #work-container a:active {
+	color: #FFFFFF;
+	background-color: #c02942;
+	text-decoration: none;
+}
+
 #work-selections li, #photos-wrapper li {
 	display: inline-block;
 	float: left;
